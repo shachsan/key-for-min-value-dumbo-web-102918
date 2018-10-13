@@ -3,7 +3,6 @@
 
 def key_for_min_value(name_hash)
   _, min=name_hash.first
-  p min 
   name_hash.each do |k, v|
     if v < min
       min = v
